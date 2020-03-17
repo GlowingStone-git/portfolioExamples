@@ -1,0 +1,34 @@
+@import './vars';
+@import './fonts';
+@import './normalize';
+
+
+
+html {
+    
+}
+
+body {
+    font-family: $montserrat;
+    overflow-x: hidden;
+}
+
+path {
+    stroke: inherit;
+    fill: inherit;
+}
+
+.text-light-brown {
+    color: $brown-orange;
+}
+
+// Blocks 
+@import './blocks/intro';
+@import './blocks/examples';
+@import './blocks/purchase';
+@import './blocks/projects';
+@import './blocks/features';
+@import './blocks/achievment';
+@import './blocks/blog';
+@import './blocks/partners';
+@import './blocks/footer';
